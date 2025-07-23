@@ -56,13 +56,13 @@ def emotion_detector(text_to_analyse):
         print(f"An unexpected error occurred: {e}")
         return None
 
-if __name__ == "__main__":
-    # Example usage: The function will run automatically when the script starts
-    sample_text = "I love this new technology."
-    print(f"Analyzing text: '{sample_text}'")
-    emotion_results = emotion_detector(sample_text)
-    if emotion_results:
-        print ("\n Emotion Detection Results:", emotion_results)
-    else:
-        print("\n Failed to get emotion detection results.")
+# if __name__ == "__main__":
+#     # Example usage: The function will run automatically when the script starts
+#     sample_text = " I hate working long hours."
+#     print(f"Analyzing text: '{sample_text}'")
+#     emotion_results = emotion_detector(sample_text)
+#     if emotion_results:
+#         print ("\n Emotion Detection Results:", emotion_results)
+#     else:
+#         print("\n Failed to get emotion detection results.")
     
